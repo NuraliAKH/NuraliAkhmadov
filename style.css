@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+    background: url("./images/Rectangle 3.png") no-repeat;
+    position: relative;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+}
+
+.nav {
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    padding: 0 250px;
+}
+
+.nav ul {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.main {
+    display: flex;
+    padding: 150px;
+    justify-content: space-evenly;
+}
+
+.text {
+    color: white;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.text span {
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a {
+    padding: 5px 30px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+    text-decoration: none;
+    align-items: center;
+}
+
+.buttons .reg {
+    text-align: center;
+    background-color: orange;
+}
+
+.main img {
+    width: 375px;
+}
+
+.buttons p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.left_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(36, 36, 36);
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.left_bar .deg {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    transform: rotate(-90deg);
+    color: white;
+    width: 50px;
+}
